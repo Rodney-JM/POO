@@ -8,6 +8,7 @@ public class Strings {
 
         nome = nome.toUpperCase();
         nome = nome.replaceAll("Rodney", "Rondiney");
+        nome = nome.strip();
         System.out.print(nome);
     }
 }
