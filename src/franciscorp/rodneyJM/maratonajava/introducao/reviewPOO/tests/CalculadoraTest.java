@@ -4,7 +4,7 @@ import franciscorp.rodneyJM.maratonajava.introducao.reviewPOO.classes.Calculador
 
 public class CalculadoraTest {
     public static void main(String[] args){
-        Calculadora calc1 = new Calculadora("SCIENTIFIC");
+        Calculadora calc1 = new Calculadora();
         Calculadora.CalculatorVriation variation = calc1.new CalculatorVriation();
 
         variation.show();

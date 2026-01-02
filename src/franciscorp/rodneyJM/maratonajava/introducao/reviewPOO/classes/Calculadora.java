@@ -5,7 +5,7 @@ public class Calculadora {
 
 
     //Constructor
-    public Calculadora(CalculadoraType typeCalculator){
+    public Calculadora(){
         this.typeCalculator = typeCalculator;
     }
     public class CalculatorVriation{
